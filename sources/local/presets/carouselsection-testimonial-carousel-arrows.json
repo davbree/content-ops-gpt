@@ -1,0 +1,105 @@
+{
+    "model": "CarouselSection",
+    "presets": [
+        {
+            "label": "Testimonial carousel, arrows",
+            "thumbnail": "images/carousel-section-testimonial-carousel-arrows-0072.jpeg",
+            "data": {
+                "title": {
+                    "text": "Carousel Section Title",
+                    "color": "text-dark",
+                    "styles": {
+                        "self": {
+                            "textAlign": "center"
+                        }
+                    },
+                    "$$type": "TitleBlock"
+                },
+                "subtitle": "Carousel of testimonials",
+                "items": [
+                    {
+                        "title": "“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.”",
+                        "tagline": "Item 1",
+                        "subtitle": "Maria Walters, Company",
+                        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                        "image": {
+                            "url": "/images/person-four.jpg",
+                            "altText": "Maria",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "full"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-8", "pb-12", "pl-12", "pr-12"],
+                                "textAlign": "center",
+                                "borderRadius": "large",
+                                "flexDirection": "col",
+                                "justifyContent": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "title": "“Quote from some important person goes right here. I love using Stackbit.”",
+                        "tagline": "Item 2",
+                        "subtitle": "Jane Doe, Company",
+                        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                        "image": {
+                            "url": "/images/person-five.jpg",
+                            "altText": "Jane",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "large"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-10", "pb-10", "pl-10", "pr-10"],
+                                "textAlign": "center",
+                                "borderRadius": "large",
+                                "flexDirection": "row",
+                                "justifyContent": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    }
+                ],
+                "badge": null,
+                "elementId": "",
+                "variant": "next-prev-nav",
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": {
+                    "url": "/images/bg-section.png",
+                    "altText": "Squares pattern",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center",
+                    "backgroundRepeat": "no-repeat",
+                    "opacity": 100,
+                    "$$type": "BackgroundImage"
+                },
+                "styles": {
+                    "self": {
+                        "justifyContent": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

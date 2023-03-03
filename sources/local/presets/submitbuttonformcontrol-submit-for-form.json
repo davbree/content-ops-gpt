@@ -1,0 +1,17 @@
+{
+  "model": "SubmitButtonFormControl",
+  "presets": [
+    {
+      "label": "Submit for form",
+      "thumbnail": "images/submit-button-form-control-submit-for-form-a5e5.png",
+      "data": {
+        "label": "Submit",
+        "showIcon": false,
+        "icon": "arrowRight",
+        "iconPosition": "right",
+        "style": "primary",
+        "elementId": ""
+      }
+    }
+  ]
+}

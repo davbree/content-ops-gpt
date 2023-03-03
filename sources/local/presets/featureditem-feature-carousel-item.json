@@ -1,0 +1,50 @@
+{
+    "model": "FeaturedItem",
+    "presets": [
+        {
+            "label": "Feature carousel item",
+            "thumbnail": "images/featured-item-feature-carousel-item-755c.jpeg",
+            "data": {
+                "title": "This is what we do best",
+                "tagline": "Feature 1",
+                "subtitle": "Let us tell you all about this feature",
+                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                "image": {
+                    "url": "/images/post-image-4.svg",
+                    "altText": "Feature 1",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "borderRadius": "none"
+                        }
+                    },
+                    "$$type": "ImageBlock"
+                },
+                "actions": [
+                    {
+                        "label": "Learn more",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    }
+                ],
+                "elementId": null,
+                "colors": "bg-neutral-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": ["pt-12", "pb-12", "pl-12", "pr-12"],
+                        "textAlign": "left",
+                        "borderRadius": "none",
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        }
+    ]
+}

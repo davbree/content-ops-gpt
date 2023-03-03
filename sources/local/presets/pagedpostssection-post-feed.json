@@ -1,0 +1,33 @@
+{
+  "model": "PagedPostsSection",
+  "presets": [
+    {
+      "label": "Post feed",
+      "thumbnail": "images/paged-posts-section-post-feed-fdc5.png",
+      "data": {
+        "title": null,
+        "subtitle": null,
+        "showThumbnail": true,
+        "showExcerpt": true,
+        "showDate": true,
+        "showAuthor": true,
+        "actions": [],
+        "badge": null,
+        "elementId": "",
+        "variant": "three-col-grid",
+        "colors": "bg-light-fg-dark",
+        "backgroundImage": null,
+        "styles": {
+          "self": {
+            "padding": [
+              "pt-16",
+              "pl-16",
+              "pb-16",
+              "pr-16"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+    "model": "PostLayout",
+    "presets": [
+        {
+            "label": "post with cta",
+            "thumbnail": "images/post-layout-post-with-cta-ab44.png",
+            "data": {
+                "title": "This is a blog post with a contact form",
+                "slug": "this-is-a-blog-post-with-a-contact-form",
+                "date": "2022-05-05",
+                "author": {
+                    "$$type": "Person",
+                    "$$ref": "content/data/team/Harrison-Talley.json"
+                },
+                "excerpt": "Quo facilis culpa ut illo dolor quo placeat consequatur. A consequatur facilis aut voluptas dolores qui aperiam laborum ut ullam consequatur ut quia consequatur cum inventore voluptas sed impedit asperiores!",
+                "featuredImage": {
+                    "url": "/images/post-image-3.svg",
+                    "altText": "Post image 3",
+                    "elementId": "",
+                    "styles": null,
+                    "$$type": "ImageBlock"
+                },
+                "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Tincidunt id aliquet risus feugiat in ante. Non diam phasellus vestibulum lorem sed. Morbi quis commodo odio aenean. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Vel eros donec ac odio tempor orci dapibus ultrices. Facilisi morbi tempus iaculis urna id volutpat. Luctus accumsan tortor posuere ac. Sagittis orci a scelerisque purus semper eget. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Dolor purus non enim praesent. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Aliquam vestibulum morbi blandit cursus risus.\n\nScelerisque fermentum dui faucibus in ornare quam viverra orci. Libero justo laoreet sit amet cursus. Gravida rutrum quisque non tellus orci. Ut sem nulla pharetra diam sit amet nisl suscipit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Urna porttitor rhoncus dolor purus. Quisque non tellus orci ac auctor augue mauris augue. Consectetur adipiscing elit duis tristique sollicitudin. Vitae semper quis lectus nulla at volutpat. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Porta nibh venenatis cras sed felis eget velit. Ullamcorper malesuada proin libero nunc consequat interdum. Enim sed faucibus turpis in eu mi bibendum neque egestas. Facilisi morbi tempus iaculis urna. Rhoncus est pellentesque elit ullamcorper dignissim. Aenean et tortor at risus viverra adipiscing at in. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Sit amet aliquam id diam. Ut tristique et egestas quis ipsum suspendisse. Congue quisque egestas diam in arcu cursus.\n\nMattis enim ut tellus elementum sagittis. At volutpat diam ut venenatis tellus in metus vulputate eu. Habitant morbi tristique senectus et. Id aliquet lectus proin nibh nisl condimentum id venenatis. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Lectus vestibulum mattis ullamcorper velit sed. Semper viverra nam libero justo. Purus sit amet luctus venenatis. Massa id neque aliquam vestibulum morbi blandit cursus risus at. Feugiat nibh sed pulvinar proin gravida.\n",
+                "bottomSections": [
+                    {
+                        "title": "Divider",
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-3", "pl-3", "pb-3", "pr-3"]
+                            }
+                        },
+                        "$$type": "DividerSection"
+                    },
+                    {
+                        "title": {
+                            "text": "How can we help?",
+                            "color": "text-dark",
+                            "styles": null,
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Talk to an expert",
+                        "text": null,
+                        "actions": [],
+                        "media": {
+                            "fields": [
+                                {
+                                    "name": "email",
+                                    "label": "Email",
+                                    "hideLabel": false,
+                                    "placeholder": "Your email",
+                                    "isRequired": true,
+                                    "width": "full",
+                                    "$$type": "EmailFormControl"
+                                },
+                                {
+                                    "name": "Your message",
+                                    "label": "Message",
+                                    "hideLabel": false,
+                                    "placeholder": "Your message",
+                                    "isRequired": false,
+                                    "width": "full",
+                                    "$$type": "TextareaFormControl"
+                                }
+                            ],
+                            "submitButton": {
+                                "label": "Let's chat!",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "SubmitButtonFormControl"
+                            },
+                            "action": "/.netlify/functions/submission_created",
+                            "destination": "",
+                            "elementId": "contact-form",
+                            "styles": {
+                                "self": {
+                                    "padding": ["pt-6", "pb-6", "pl-6", "pr-6"],
+                                    "borderColor": "border-dark",
+                                    "borderStyle": "solid",
+                                    "borderWidth": 0,
+                                    "borderRadius": "none"
+                                }
+                            },
+                            "$$type": "FormBlock"
+                        },
+                        "badge": null,
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"]
+                            }
+                        },
+                        "nt_variants": [],
+                        "nt_audience": null,
+                        "$$type": "GenericSection"
+                    }
+                ],
+                "isFeatured": false,
+                "isDraft": false,
+                "seo": {
+                    "metaTitle": "Blog post horizontal card",
+                    "metaDescription": "Write here your new posts's description including most relevant keywords.",
+                    "addTitleSuffix": true,
+                    "socialImage": "/images/soc-post-image.png",
+                    "metaTags": [],
+                    "$$type": "Seo"
+                },
+                "colors": "bg-light-fg-dark",
+                "styles": {
+                    "self": {
+                        "flexDirection": "row"
+                    }
+                }
+            }
+        }
+    ]
+}

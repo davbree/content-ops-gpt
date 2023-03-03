@@ -1,0 +1,70 @@
+{
+    "model": "FeaturedPeopleSection",
+    "presets": [
+        {
+            "label": "Featured people",
+            "thumbnail": "images/featured-people-section-team-b4e6.png",
+            "data": {
+                "title": {
+                    "text": "Meet our team",
+                    "color": "text-dark",
+                    "styles": {
+                        "self": {
+                            "textAlign": "center"
+                        }
+                    },
+                    "$$type": "TitleBlock"
+                },
+                "subtitle": null,
+                "people": [
+                    {
+                        "$$type": "Person",
+                        "$$ref": "content/data/team/Drake-Garza.json"
+                    },
+                    {
+                        "$$type": "Person",
+                        "$$ref": "content/data/team/Tiya-Greenwood.json"
+                    },
+                    {
+                        "$$type": "Person",
+                        "$$ref": "content/data/team/Faizah-Chan.json"
+                    }
+                ],
+                "actions": [
+                    {
+                        "label": "Check all team",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    }
+                ],
+                "badge": null,
+                "elementId": "",
+                "variant": "three-col-grid",
+                "colors": "bg-neutral-fg-dark",
+                "backgroundImage": {
+                    "url": "/images/bg.svg",
+                    "altText": "Shapes in the corners",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center",
+                    "backgroundRepeat": "no-repeat",
+                    "opacity": 100,
+                    "$$type": "BackgroundImage"
+                },
+                "styles": {
+                    "self": {
+                        "justifyContent": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

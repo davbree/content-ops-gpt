@@ -1,0 +1,38 @@
+{
+    "model": "FeaturedItem",
+    "presets": [
+        {
+            "label": "Testimonial carousel item",
+            "thumbnail": "images/featured-item-testimonial-carousel-item-9649.jpeg",
+            "data": {
+                "title": "“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.”",
+                "tagline": "Item 1",
+                "subtitle": "Maria Walters, Company",
+                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                "image": {
+                    "url": "/images/person-four.jpg",
+                    "altText": "Maria",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "borderRadius": "full"
+                        }
+                    },
+                    "$$type": "ImageBlock"
+                },
+                "actions": [],
+                "elementId": null,
+                "colors": "bg-neutral-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": ["pt-8", "pb-12", "pl-12", "pr-12"],
+                        "textAlign": "center",
+                        "borderRadius": "large",
+                        "flexDirection": "col",
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

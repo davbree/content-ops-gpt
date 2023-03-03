@@ -1,0 +1,35 @@
+{
+    "model": "FeaturedItem",
+    "presets": [
+        {
+            "label": "Card, image on bottom",
+            "thumbnail": "images/featured-item-single-card-image-on-bottom-433e.png",
+            "data": {
+                "title": "Feature Item One",
+                "subtitle": "This is the item subtitle",
+                "text": "Follow the tutorial to build your first Stackbit site.\n",
+                "image": {
+                    "url": "/images/post-one.svg",
+                    "altText": "Exclamation mark on red background",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "borderRadius": "x-large"
+                        }
+                    },
+                    "$$type": "ImageBlock"
+                },
+                "actions": [],
+                "elementId": null,
+                "colors": "bg-neutral-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                        "borderRadius": "x-large",
+                        "flexDirection": "col-reverse"
+                    }
+                }
+            }
+        }
+    ]
+}

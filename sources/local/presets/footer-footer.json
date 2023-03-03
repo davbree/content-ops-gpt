@@ -1,0 +1,146 @@
+{
+    "model": "Footer",
+    "presets": [
+        {
+            "label": "Footer",
+            "thumbnail": "images/footer-footer-3737.png",
+            "data": {
+                "logo": {
+                    "url": "/images/logo-mark-light.svg",
+                    "altText": "Logo light",
+                    "elementId": "",
+                    "styles": null,
+                    "$$type": "ImageBlock"
+                },
+                "title": "Your Brand",
+                "text": "A description of your brand",
+                "primaryLinks": {
+                    "title": "Product",
+                    "links": [
+                        {
+                            "label": "Features",
+                            "altText": "",
+                            "url": "/",
+                            "showIcon": false,
+                            "icon": "arrowRight",
+                            "iconPosition": "right",
+                            "style": "secondary",
+                            "elementId": "",
+                            "$$type": "Link"
+                        },
+                        {
+                            "label": "Pricing",
+                            "altText": "",
+                            "url": "/pricing",
+                            "showIcon": false,
+                            "icon": "arrowRight",
+                            "iconPosition": "right",
+                            "style": "secondary",
+                            "elementId": "",
+                            "$$type": "Link"
+                        },
+                        {
+                            "label": "Documentation",
+                            "altText": "",
+                            "url": "/",
+                            "showIcon": false,
+                            "icon": "arrowRight",
+                            "iconPosition": "right",
+                            "style": "secondary",
+                            "elementId": "",
+                            "$$type": "Link"
+                        }
+                    ],
+                    "styles": null,
+                    "$$type": "FooterLinksGroup"
+                },
+                "secondaryLinks": {
+                    "title": "Company",
+                    "links": [
+                        {
+                            "label": "About",
+                            "altText": "",
+                            "url": "/",
+                            "showIcon": false,
+                            "icon": "arrowRight",
+                            "iconPosition": "right",
+                            "style": "secondary",
+                            "elementId": "",
+                            "$$type": "Link"
+                        },
+                        {
+                            "label": "Blog",
+                            "altText": "",
+                            "url": "/blog",
+                            "showIcon": false,
+                            "icon": "arrowRight",
+                            "iconPosition": "right",
+                            "style": "secondary",
+                            "elementId": "",
+                            "$$type": "Link"
+                        }
+                    ],
+                    "styles": null,
+                    "$$type": "FooterLinksGroup"
+                },
+                "socialLinks": [
+                    {
+                        "altText": "GitHub link",
+                        "url": "https://github.com/stackbit",
+                        "icon": "github",
+                        "elementId": "",
+                        "$$type": "Social"
+                    },
+                    {
+                        "altText": "Twitter link",
+                        "url": "https://twitter.com/stackbit",
+                        "icon": "twitter",
+                        "elementId": "",
+                        "$$type": "Social"
+                    },
+                    {
+                        "altText": "YouTube icon",
+                        "url": "/",
+                        "icon": "youtube",
+                        "elementId": "",
+                        "$$type": "Social"
+                    },
+                    {
+                        "altText": "Email link",
+                        "url": "/",
+                        "icon": "mail",
+                        "elementId": "",
+                        "$$type": "Social"
+                    }
+                ],
+                "legalLinks": [
+                    {
+                        "label": "Terms",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Privacy",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    }
+                ],
+                "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
+                "colors": "bg-dark-fg-light",
+                "styles": null
+            }
+        }
+    ]
+}

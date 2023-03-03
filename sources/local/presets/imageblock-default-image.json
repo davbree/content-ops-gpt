@@ -1,0 +1,19 @@
+{
+    "model": "ImageBlock",
+    "presets": [
+        {
+            "label": "Default image",
+            "thumbnail": "images/image-block-default-image-08f7.png",
+            "data": {
+                "url": "/images/post-two.svg",
+                "altText": "Lightning bolt symbol on red background",
+                "elementId": "",
+                "styles": {
+                    "self": {
+                        "borderRadius": "x-large"
+                    }
+                }
+            }
+        }
+    ]
+}

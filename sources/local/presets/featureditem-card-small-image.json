@@ -1,0 +1,33 @@
+{
+    "model": "FeaturedItem",
+    "presets": [
+        {
+            "label": "Card, small image",
+            "thumbnail": "images/featured-item-single-card-small-image-6702.png",
+            "data": {
+                "title": "500k",
+                "subtitle": "Numbers Done",
+                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                "image": {
+                    "url": "/images/icon-one.svg",
+                    "altText": "Featured icon one",
+                    "elementId": "",
+                    "styles": null,
+                    "$$type": "ImageBlock"
+                },
+                "actions": [],
+                "elementId": null,
+                "colors": "bg-neutralAlt-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                        "borderRadius": "x-large",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "textAlign": "left"
+                    }
+                }
+            }
+        }
+    ]
+}

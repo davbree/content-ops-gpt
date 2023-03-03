@@ -1,0 +1,19 @@
+{
+  "model": "Button",
+  "presets": [
+    {
+      "label": "Secondary button",
+      "thumbnail": "images/button-secondary-button-efc1.png",
+      "data": {
+        "label": "Get started",
+        "altText": "",
+        "url": "/",
+        "showIcon": false,
+        "icon": "arrowRight",
+        "iconPosition": "right",
+        "style": "secondary",
+        "elementId": ""
+      }
+    }
+  ]
+}

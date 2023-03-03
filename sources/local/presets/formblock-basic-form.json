@@ -1,0 +1,73 @@
+{
+  "model": "FormBlock",
+  "presets": [
+    {
+      "label": "Basic form",
+      "thumbnail": "images/form-block-basic-form-5de4.png",
+      "data": {
+        "fields": [
+          {
+            "name": "name",
+            "label": "Name",
+            "hideLabel": true,
+            "placeholder": "Your name",
+            "isRequired": true,
+            "width": "full",
+            "$$type": "TextFormControl"
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "hideLabel": true,
+            "placeholder": "Your email",
+            "isRequired": true,
+            "width": "full",
+            "$$type": "EmailFormControl"
+          },
+          {
+            "name": "message",
+            "label": "Message",
+            "hideLabel": true,
+            "placeholder": "Your message",
+            "isRequired": false,
+            "width": "full",
+            "$$type": "TextareaFormControl"
+          },
+          {
+            "name": "updates",
+            "label": "I have read and accept the legal terms.",
+            "isRequired": false,
+            "width": "full",
+            "$$type": "CheckboxFormControl"
+          }
+        ],
+        "submitButton": {
+          "label": "Submit",
+          "showIcon": false,
+          "icon": "arrowRight",
+          "iconPosition": "right",
+          "style": "primary",
+          "elementId": "",
+          "$$type": "SubmitButtonFormControl"
+        },
+        "action": "/.netlify/functions/submission_created",
+        "destination": "",
+        "elementId": "contact-form",
+        "styles": {
+          "self": {
+            "padding": [
+              "pt-6",
+              "pb-6",
+              "pl-6",
+              "pr-6"
+            ],
+            "borderColor": "border-dark",
+            "borderStyle": "solid",
+            "borderWidth": 0,
+            "borderRadius": "none"
+          }
+        }
+      }
+    }
+  ]
+}

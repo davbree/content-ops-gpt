@@ -1,0 +1,120 @@
+{
+    "model": "FeaturedItemsSection",
+    "presets": [
+        {
+            "label": "Features grid",
+            "thumbnail": "images/featured-items-section-rows-of-3-0e35.png",
+            "data": {
+                "title": {
+                    "text": "List of features here",
+                    "color": "text-primary",
+                    "styles": {
+                        "self": {
+                            "textAlign": "center"
+                        }
+                    },
+                    "$$type": "TitleBlock"
+                },
+                "subtitle": "Featured items section subtitle",
+                "items": [
+                    {
+                        "title": "Feature Item One",
+                        "subtitle": "This is the item subtitle",
+                        "text": "Follow the tutorial to build your first Stackbit site.\n",
+                        "image": {
+                            "url": "/images/post-one.svg",
+                            "altText": "Exclamation mark on red background",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "x-large"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                "borderRadius": "x-large",
+                                "flexDirection": "col"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "title": "Feature Item Two",
+                        "subtitle": "This is the item subtitle",
+                        "text": "Follow the tutorial to build your first awesome Stackbit site.\n",
+                        "image": {
+                            "url": "/images/post-two.svg",
+                            "altText": "Lightning bolt symbol on red background",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "x-large"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                "borderRadius": "x-large",
+                                "flexDirection": "col"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "title": "Feature Item Three",
+                        "subtitle": "This is the item subtitle",
+                        "text": "Learn from the tutorial and build your first awesome Stackbit site.\n",
+                        "image": {
+                            "url": "/images/post-three.svg",
+                            "altText": "Stackbit logomark on red background",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "x-large"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                "borderRadius": "x-large",
+                                "flexDirection": "col"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    }
+                ],
+                "actions": [],
+                "badge": null,
+                "elementId": "",
+                "variant": "three-col-grid",
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "padding": ["pt-16", "pl-8", "pb-8", "pr-8"],
+                        "justifyContent": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

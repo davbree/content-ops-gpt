@@ -1,0 +1,19 @@
+{
+  "model": "Link",
+  "presets": [
+    {
+      "label": "Primary link",
+      "thumbnail": "images/link-primary-link-312d.png",
+      "data": {
+        "label": "See Tutorials",
+        "altText": "",
+        "url": "/",
+        "showIcon": false,
+        "icon": "arrowRight",
+        "iconPosition": "right",
+        "style": "primary",
+        "elementId": ""
+      }
+    }
+  ]
+}

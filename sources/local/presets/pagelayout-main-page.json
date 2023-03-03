@@ -1,0 +1,874 @@
+{
+    "model": "PageLayout",
+    "presets": [
+        {
+            "label": "Main page",
+            "thumbnail": "images/main-page.png",
+            "data": {
+                "seo": {
+                    "metaTitle": "Home",
+                    "metaDescription": "Write here your new page's description including most relevant keywords.",
+                    "addTitleSuffix": true,
+                    "socialImage": "/images/soc-feature-image.png",
+                    "metaTags": [],
+                    "$$type": "Seo"
+                },
+                "sections": [
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "text": "Generic Section With An Image",
+                            "color": "text-dark",
+                            "styles": null,
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "This is a subtitle",
+                        "text": "Lots of body copy can go right here. With Stackbit, your team will be able to x, y and z. We will talk about product here. Strengths, why to keep scrolling.",
+                        "actions": [
+                            {
+                                "label": "Get started",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Button"
+                            },
+                            {
+                                "label": "See Tutorials",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "media": {
+                            "url": "/images/hero.svg",
+                            "altText": "Generic section image",
+                            "elementId": "",
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"]
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "ImageGallerySection",
+                        "title": null,
+                        "subtitle": "Our customers",
+                        "images": [
+                            {
+                                "url": "/images/empathy_jcmigz.svg",
+                                "altText": "Empathy logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/wellster.svg",
+                                "altText": "Wellster logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/vise.svg",
+                                "altText": "Vise logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/telus.svg",
+                                "altText": "Telus logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/sanity.svg",
+                                "altText": "Sanity logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/contenful.svg",
+                                "altText": "Contentful logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/rangle.svg",
+                                "altText": "Rangle logo",
+                                "elementId": "",
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            }
+                        ],
+                        "badge": null,
+                        "elementId": "",
+                        "motion": "move-to-left",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "margin": ["mt-0", "ml-0", "mb-0", "mr-0"],
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "FeaturedItemsSection",
+                        "title": {
+                            "text": "List of features/benefits/services",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Subtitle goes here",
+                        "items": [
+                            {
+                                "title": "500k",
+                                "subtitle": "Numbers Done",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "url": "/images/icon-one.svg",
+                                    "altText": "Featured icon one",
+                                    "elementId": "",
+                                    "styles": null,
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "justifyContent": "center",
+                                        "textAlign": "left"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "20x",
+                                "subtitle": "The Job Stuff",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "url": "/images/icon-four.svg",
+                                    "altText": "Featured icon two",
+                                    "elementId": "",
+                                    "styles": null,
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row",
+                                        "textAlign": "left",
+                                        "justifyContent": "center"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "200%",
+                                "subtitle": "Faster",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "url": "/images/icon-two.svg",
+                                    "altText": "Featured icon three",
+                                    "elementId": "",
+                                    "styles": null,
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutralAlt-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "row"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "label": "Get started",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "Button"
+                            }
+                        ],
+                        "badge": {
+                            "label": "This is a badge",
+                            "color": "text-primary",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "Badge"
+                        },
+                        "elementId": "",
+                        "variant": "three-col-grid",
+                        "colors": "bg-neutral-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": ["pb-16", "pt-16", "pl-16", "pr-16"],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "text": "Dope Design",
+                            "color": "text-dark",
+                            "styles": null,
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Dope design section subtitle",
+                        "text": "A Stackbit website is a git repo that you own. Every code commit is instantly reflected in the visual editor and since every visual edit is a git commit, git workflows and collaboration just work.\n",
+                        "actions": [
+                            {
+                                "label": "Get started",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Button"
+                            },
+                            {
+                                "label": "See Tutorials",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "media": {
+                            "url": "/images/feature-image-two.svg",
+                            "altText": "Dope design preview",
+                            "elementId": "",
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "badge": {
+                            "label": "This is a badge",
+                            "color": "text-primary",
+                            "styles": null,
+                            "$$type": "Badge"
+                        },
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"]
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "text": "Dope Design",
+                            "color": "text-dark",
+                            "styles": null,
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Dope design section subtitle",
+                        "text": "A Stackbit website is a git repo that you own. Every code commit is instantly reflected in the visual editor and since every visual edit is a git commit, git workflows and collaboration just work.\n",
+                        "actions": [
+                            {
+                                "label": "Get started",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Button"
+                            },
+                            {
+                                "label": "See Tutorials",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "media": {
+                            "url": "/images/feature-image-two.svg",
+                            "altText": "Dope design preview",
+                            "elementId": "",
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "badge": {
+                            "label": "This is a badge",
+                            "color": "text-primary",
+                            "styles": null,
+                            "$$type": "Badge"
+                        },
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "alignItems": "center",
+                                "flexDirection": "row-reverse",
+                                "padding": ["pt-16", "pl-16", "pb-16", "pr-16"]
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "CarouselSection",
+                        "title": {
+                            "text": "Carousel Section Title",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Carousel section subtitle",
+                        "items": [
+                            {
+                                "title": "“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.”",
+                                "tagline": "Maria Story",
+                                "subtitle": "Maria Walters, Company",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "url": "/images/person-four.jpg",
+                                    "altText": "Maria",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "full",
+                                            "borderColor": "border-light",
+                                            "borderStyle": "solid",
+                                            "borderWidth": 4
+                                        }
+                                    },
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pb-12", "pl-12", "pr-12"],
+                                        "textAlign": "center",
+                                        "borderRadius": "large",
+                                        "flexDirection": "col",
+                                        "justifyContent": "center"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "“Quote from some important person goes right here. I love using Stackbit.”",
+                                "tagline": "Jane Story",
+                                "subtitle": "Jane Doe, Company",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                                "image": {
+                                    "url": "/images/person-five.jpg",
+                                    "altText": "Jane",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "full",
+                                            "borderWidth": 4,
+                                            "borderStyle": "solid",
+                                            "borderColor": "border-light"
+                                        }
+                                    },
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-10", "pb-10", "pl-10", "pr-10"],
+                                        "textAlign": "center",
+                                        "borderRadius": "large",
+                                        "flexDirection": "col",
+                                        "justifyContent": "center"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            }
+                        ],
+                        "badge": null,
+                        "elementId": "",
+                        "variant": "tabs-nav",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": {
+                            "url": "/images/bg-section.png",
+                            "altText": "Squares pattern",
+                            "backgroundSize": "cover",
+                            "backgroundPosition": "center",
+                            "backgroundRepeat": "no-repeat",
+                            "opacity": 100,
+                            "$$type": "BackgroundImage"
+                        },
+                        "styles": {
+                            "self": {
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "FeaturedItemsSection",
+                        "title": {
+                            "text": "List of features here",
+                            "color": "text-primary",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Featured items section subtitle",
+                        "items": [
+                            {
+                                "title": "Feature Item One",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Follow the tutorial to build your first Stackbit site.\n",
+                                "image": {
+                                    "url": "/images/post-one.svg",
+                                    "altText": "Exclamation mark on red background",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "x-large"
+                                        }
+                                    },
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "col"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "Feature Item Two",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Follow the tutorial to build your first awesome Stackbit site.\n",
+                                "image": {
+                                    "url": "/images/post-two.svg",
+                                    "altText": "Lightning bolt symbol on red background",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "x-large"
+                                        }
+                                    },
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "col"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "Feature Item Three",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Learn from the tutorial and build your first awesome Stackbit site.\n",
+                                "image": {
+                                    "url": "/images/post-three.svg",
+                                    "altText": "Stackbit logomark on red background",
+                                    "elementId": "",
+                                    "styles": {
+                                        "self": {
+                                            "borderRadius": "x-large"
+                                        }
+                                    },
+                                    "$$type": "ImageBlock"
+                                },
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-8", "pl-8", "pb-8", "pr-8"],
+                                        "borderRadius": "x-large",
+                                        "flexDirection": "col"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            }
+                        ],
+                        "actions": [],
+                        "badge": null,
+                        "elementId": "",
+                        "variant": "three-col-grid",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-16", "pl-8", "pb-8", "pr-8"],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "text": "Generic Section With A Video",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Section with a video subtitle",
+                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "actions": [],
+                        "media": {
+                            "title": "Title of the video",
+                            "url": "https://res.cloudinary.com/stackbit-com/video/upload/c_scale,f_auto,w_1200/v1662491281/Home_page_header_V2_launch_V.2_2_fdyqq7.mp4",
+                            "autoplay": false,
+                            "loop": false,
+                            "muted": false,
+                            "controls": true,
+                            "aspectRatio": "16:9",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "padding": ["pt-2", "pb-2", "pl-2", "pr-2"],
+                                    "borderColor": "border-dark",
+                                    "borderStyle": "solid",
+                                    "borderWidth": 1,
+                                    "borderRadius": "large"
+                                }
+                            },
+                            "$$type": "VideoBlock"
+                        },
+                        "badge": null,
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "flexDirection": "col",
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        },
+                        "nt_variants": [],
+                        "nt_audience": null
+                    },
+                    {
+                        "$$type": "FeaturedPeopleSection",
+                        "title": {
+                            "text": "Meet our team",
+                            "color": "text-dark",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": null,
+                        "people": [
+                            {
+                                "$$type": "Person",
+                                "$$ref": "content/data/team/Hugh-Saturation.json"
+                            },
+                            {
+                                "$$type": "Person",
+                                "$$ref": "content/data/team/Dianne-Ameter.json"
+                            },
+                            {
+                                "$$type": "Person",
+                                "$$ref": "content/data/team/Hilary-Ouse.json"
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "label": "Check all team",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "badge": null,
+                        "elementId": "",
+                        "variant": "three-col-grid",
+                        "colors": "bg-neutral-fg-dark",
+                        "backgroundImage": {
+                            "url": "/images/shapes-in-the-corners-bg.svg",
+                            "altText": "Shapes in the corners",
+                            "backgroundSize": "cover",
+                            "backgroundPosition": "center",
+                            "backgroundRepeat": "no-repeat",
+                            "opacity": 100,
+                            "$$type": "BackgroundImage"
+                        },
+                        "styles": {
+                            "self": {
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "GenericSection",
+                        "title": {
+                            "text": "Generic Section With A Form",
+                            "color": "text-dark",
+                            "styles": null,
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "Section with a form subtitle",
+                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "actions": [],
+                        "media": {
+                            "fields": [
+                                {
+                                    "name": "name",
+                                    "label": "Name",
+                                    "hideLabel": true,
+                                    "placeholder": "Your name",
+                                    "isRequired": true,
+                                    "width": "full",
+                                    "$$type": "TextFormControl"
+                                },
+                                {
+                                    "name": "email",
+                                    "label": "Email",
+                                    "hideLabel": true,
+                                    "placeholder": "Your email",
+                                    "isRequired": true,
+                                    "width": "full",
+                                    "$$type": "EmailFormControl"
+                                },
+                                {
+                                    "name": "message",
+                                    "label": "Message",
+                                    "hideLabel": true,
+                                    "placeholder": "Your message",
+                                    "isRequired": false,
+                                    "width": "full",
+                                    "$$type": "TextareaFormControl"
+                                }
+                            ],
+                            "submitButton": {
+                                "label": "Submit",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "primary",
+                                "elementId": "",
+                                "$$type": "SubmitButtonFormControl"
+                            },
+                            "action": "/.netlify/functions/submission_created",
+                            "destination": "",
+                            "elementId": "contact-form",
+                            "styles": {
+                                "self": {
+                                    "padding": ["pt-6", "pb-6", "pl-6", "pr-6"],
+                                    "borderColor": "border-dark",
+                                    "borderStyle": "solid",
+                                    "borderWidth": 1,
+                                    "borderRadius": "large"
+                                }
+                            },
+                            "$$type": "FormBlock"
+                        },
+                        "badge": {
+                            "label": "This is a badge",
+                            "color": "text-primary",
+                            "styles": null,
+                            "$$type": "Badge"
+                        },
+                        "elementId": "",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": null,
+                        "nt_variants": [],
+                        "nt_audience": null
+                    },
+                    {
+                        "$$type": "FeaturedItemsSection",
+                        "title": {
+                            "text": "Featured Items With Expand/Collapse Functionality",
+                            "color": "text-primary",
+                            "styles": {
+                                "self": {
+                                    "textAlign": "center"
+                                }
+                            },
+                            "$$type": "TitleBlock"
+                        },
+                        "subtitle": "This is the featured items section subtitle",
+                        "items": [
+                            {
+                                "title": "This is the first expand/collapse item",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Vivamus tempus, urna sed dapibus accumsan, urna lorem porttitor mauris, vitae tristique sapien nisl ac dui. Fusce molestie placerat tincidunt. In elementum nibh eu arcu aliquam, id lacinia augue placerat. Vivamus volutpat est auctor ex pharetra lobortis. Proin euismod ante at massa tempor commodo. ",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-6", "pb-6", "pl-6", "pr-6"],
+                                        "borderRadius": "large"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "This is the second expand/collapse item",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-6", "pl-6", "pb-6", "pr-6"],
+                                        "borderRadius": "large"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            },
+                            {
+                                "title": "This is the third expand/collapse item",
+                                "tagline": "This is the tagline",
+                                "subtitle": "This is the item subtitle",
+                                "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                                "image": null,
+                                "actions": [],
+                                "elementId": null,
+                                "colors": "bg-neutral-fg-dark",
+                                "styles": {
+                                    "self": {
+                                        "padding": ["pt-6", "pl-6", "pb-6", "pr-6"],
+                                        "borderRadius": "large"
+                                    }
+                                },
+                                "$$type": "FeaturedItem"
+                            }
+                        ],
+                        "actions": [],
+                        "badge": null,
+                        "elementId": "",
+                        "variant": "toggle-list",
+                        "colors": "bg-light-fg-dark",
+                        "backgroundImage": null,
+                        "styles": {
+                            "self": {
+                                "padding": ["pb-36", "pt-20"],
+                                "justifyContent": "center"
+                            },
+                            "subtitle": {
+                                "textAlign": "center"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

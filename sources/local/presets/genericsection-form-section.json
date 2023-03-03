@@ -1,0 +1,104 @@
+{
+  "model": "GenericSection",
+  "presets": [
+    {
+      "label": "Form section",
+      "thumbnail": "images/generic-section-form-section-8fef.png",
+      "data": {
+        "title": {
+          "text": "Tell us about your project",
+          "color": "text-dark",
+          "styles": null,
+          "$$type": "TitleBlock"
+        },
+        "subtitle": "Section with a form subtitle",
+        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+        "actions": [],
+        "media": {
+          "fields": [
+            {
+              "name": "name",
+              "label": "Name",
+              "hideLabel": true,
+              "placeholder": "Your name",
+              "isRequired": true,
+              "width": "full",
+              "$$type": "TextFormControl"
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "hideLabel": true,
+              "placeholder": "Your email",
+              "isRequired": true,
+              "width": "full",
+              "$$type": "EmailFormControl"
+            },
+            {
+              "name": "message",
+              "label": "Message",
+              "hideLabel": true,
+              "placeholder": "Your message",
+              "isRequired": false,
+              "width": "full",
+              "$$type": "TextareaFormControl"
+            },
+            {
+              "name": "updates",
+              "label": "I have read and accept the legal terms.",
+              "isRequired": false,
+              "width": "full",
+              "$$type": "CheckboxFormControl"
+            }
+          ],
+          "submitButton": {
+            "label": "Submit",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "elementId": "",
+            "$$type": "SubmitButtonFormControl"
+          },
+          "action": "/.netlify/functions/submission_created",
+          "destination": "",
+          "elementId": "contact-form",
+          "styles": {
+            "self": {
+              "padding": [
+                "pt-6",
+                "pb-6",
+                "pl-6",
+                "pr-6"
+              ],
+              "borderColor": "border-dark",
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "borderRadius": "none"
+            }
+          },
+          "$$type": "FormBlock"
+        },
+        "badge": {
+          "label": "Contact us",
+          "color": "text-primary",
+          "styles": null,
+          "$$type": "Badge"
+        },
+        "elementId": "",
+        "colors": "bg-light-fg-dark",
+        "backgroundImage": null,
+        "styles": {
+          "self": {
+            "padding": [
+              "pt-16",
+              "pl-16",
+              "pb-16",
+              "pr-16"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+    "model": "CarouselSection",
+    "presets": [
+        {
+            "label": "Feature carousel, tabs",
+            "thumbnail": "images/carousel-section-feature-carousel-tabs-8be9.jpeg",
+            "data": {
+                "title": null,
+                "subtitle": null,
+                "items": [
+                    {
+                        "title": "This is what we do best",
+                        "tagline": "Feature 1",
+                        "subtitle": "Let us tell you all about this feature",
+                        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                        "image": {
+                            "url": "/images/post-image-4.svg",
+                            "altText": "Feature 1",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "none"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [
+                            {
+                                "label": "Learn more",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-12", "pb-12", "pl-12", "pr-12"],
+                                "textAlign": "left",
+                                "borderRadius": "none",
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "title": "Another great feature",
+                        "tagline": "Feature 2",
+                        "subtitle": "You are going to love this feature",
+                        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
+                        "image": {
+                            "url": "/images/post-image-1.svg",
+                            "altText": "Feature 2",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "large"
+                                }
+                            },
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [
+                            {
+                                "label": "Learn more",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": true,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": ["pt-10", "pb-10", "pl-10", "pr-10"],
+                                "textAlign": "left",
+                                "borderRadius": "none",
+                                "flexDirection": "row",
+                                "justifyContent": "flex-start"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    }
+                ],
+                "badge": null,
+                "elementId": "",
+                "variant": "tabs-nav",
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": {
+                    "url": "/images/bg-section.png",
+                    "altText": "Squares pattern",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center",
+                    "backgroundRepeat": "no-repeat",
+                    "opacity": 100,
+                    "$$type": "BackgroundImage"
+                },
+                "styles": {
+                    "self": {
+                        "justifyContent": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

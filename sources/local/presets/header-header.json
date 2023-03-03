@@ -1,0 +1,116 @@
+{
+    "model": "Header",
+    "presets": [
+        {
+            "label": "Header",
+            "thumbnail": "images/header-header-3688.png",
+            "data": {
+                "title": "Your Brand",
+                "logo": {
+                    "url": "/images/logo-mark-dark.svg",
+                    "altText": "Logo dark",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "margin": ["mr-3"],
+                            "opacity": 100
+                        }
+                    },
+                    "$$type": "ImageBlock"
+                },
+                "primaryLinks": [
+                    {
+                        "label": "Pricing",
+                        "altText": "",
+                        "url": "/pricing",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Blog",
+                        "altText": "Blog",
+                        "url": "/blog",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Link"
+                    },
+                    {
+                        "label": "Dropdown",
+                        "altText": "Dropdown",
+                        "links": [
+                            {
+                                "label": "Dropdown item",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            },
+                            {
+                                "label": "Dropdown item",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            },
+                            {
+                                "label": "Dropdown item",
+                                "altText": "",
+                                "url": "/",
+                                "showIcon": false,
+                                "icon": "arrowRight",
+                                "iconPosition": "right",
+                                "style": "secondary",
+                                "elementId": "",
+                                "$$type": "Link"
+                            }
+                        ],
+                        "labelStyle": "secondary",
+                        "$$type": "SubNav"
+                    }
+                ],
+                "secondaryLinks": [
+                    {
+                        "label": "Sign up",
+                        "altText": "Sign up",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": "",
+                        "$$type": "Button"
+                    },
+                    {
+                        "label": "Log in",
+                        "altText": "",
+                        "url": "/",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": "",
+                        "$$type": "Button"
+                    }
+                ],
+                "variant": "logo-left-primary-nav-left",
+                "colors": "bg-light-fg-dark",
+                "styles": null
+            }
+        }
+    ]
+}

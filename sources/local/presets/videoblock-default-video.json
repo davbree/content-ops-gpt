@@ -1,0 +1,33 @@
+{
+  "model": "VideoBlock",
+  "presets": [
+    {
+      "label": "Default video",
+      "thumbnail": "images/video-block-default-video-2dee.png",
+      "data": {
+        "title": "Title of the video",
+        "url": "https://res.cloudinary.com/stackbit-com/video/upload/c_scale,f_auto,w_1200/v1662491281/Home_page_header_V2_launch_V.2_2_fdyqq7.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "controls": true,
+        "aspectRatio": "16:9",
+        "elementId": "",
+        "styles": {
+          "self": {
+            "padding": [
+              "pt-2",
+              "pb-2",
+              "pl-2",
+              "pr-2"
+            ],
+            "borderColor": "border-dark",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "borderRadius": "large"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "model": "FeaturedItem",
+  "presets": [
+    {
+      "label": "Expandable item",
+      "thumbnail": "images/featured-item-faq-item-081b.png",
+      "data": {
+        "title": "This is the first expand/collapse item",
+        "subtitle": "This is the item subtitle",
+        "text": "Vivamus tempus, urna sed dapibus accumsan, urna lorem porttitor mauris, vitae tristique sapien nisl ac dui. Fusce molestie placerat tincidunt. In elementum nibh eu arcu aliquam, id lacinia augue placerat. Vivamus volutpat est auctor ex pharetra lobortis. Proin euismod ante at massa tempor commodo. ",
+        "image": null,
+        "actions": [],
+        "elementId": null,
+        "colors": "bg-neutral-fg-dark",
+        "styles": {
+          "self": {
+            "padding": [
+              "pt-6",
+              "pb-6",
+              "pl-6",
+              "pr-6"
+            ],
+            "textAlign": "left",
+            "borderRadius": "large"
+          }
+        }
+      }
+    }
+  ]
+}
