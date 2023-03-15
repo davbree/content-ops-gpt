@@ -258,7 +258,7 @@ export default class ChatGPTContentSource implements ContentSourceInterface {
                     .filter(Boolean)
             )
         ).filter(Boolean);
-        console.log(JSON.stringify(ops, null, 2));
+        // console.log(JSON.stringify(ops, null, 2));
         return this.innerContentSource.createDocument({
             ...options,
             updateOperationFields: {

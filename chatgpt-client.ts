@@ -144,7 +144,7 @@ export default class ChatGPTClient {
         // console.log(result.text);
         const startIndex = result.text.indexOf('{');
         const endIndex = result.text.lastIndexOf('}');
-        console.log(result.text);
+        // console.log(result.text);
         return JSON.parse(result.text.substr(startIndex, endIndex - startIndex + 1));
     }
 }
