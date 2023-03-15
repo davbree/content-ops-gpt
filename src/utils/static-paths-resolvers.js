@@ -1,4 +1,9 @@
-import { getAllNonFeaturedPostsSorted, getAllCategoryPostsSorted, generatePagedPathsForPage, isPublished } from './data-utils';
+import {
+    getAllNonFeaturedPostsSorted,
+    getAllCategoryPostsSorted,
+    generatePagedPathsForPage,
+    isPublished
+} from './data-utils';
 
 export function resolveStaticPaths({ pages, objects }) {
     return pages.reduce((paths, page) => {
@@ -11,7 +16,10 @@ export function resolveStaticPaths({ pages, objects }) {
             const resolver = StaticPathsResolvers[objectType];
             return paths.concat(resolver(page, objects));
         }
-        return paths.concat(pageUrlPath);
+        if (pageUrlPath) {
+            return paths.concat(pageUrlPath);
+        }
+        return paths;
     }, []);
 }
 

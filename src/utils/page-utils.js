@@ -12,8 +12,11 @@ function cssClassesFromUrlPath(urlPath) {
 }
 
 function getPageUrl(page) {
-    if (!page || !page.slug) {
+    if (!page) {
         return null;
+    }
+    if (!page.slug && page?.__metadata?.id) {
+        return page?.__metadata?.id?.replace(/content\/pages/g, '').replace(/\.md/g, '');
     }
 
     if (['PostLayout'].includes(page?.__metadata.modelName)) {
@@ -24,11 +27,10 @@ function getPageUrl(page) {
 }
 
 function setEnvironmentVariables() {
-  return {
-    ...(process?.env?.URL && { URL: process.env.URL }),
-  }
+    return {
+        ...(process?.env?.URL && { URL: process.env.URL })
+    };
 }
-
 
 module.exports = {
     cssClassesFromUrlPath,
